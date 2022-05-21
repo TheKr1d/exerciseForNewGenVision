@@ -1,0 +1,27 @@
+{
+  "name": "exercisefornewgenvision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKr1d/exerciseForNewGenVision.git"
+  },
+  "author": "Vladislav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheKr1d/exerciseForNewGenVision/issues"
+  },
+  "homepage": "https://github.com/TheKr1d/exerciseForNewGenVision#readme",
+  "devDependencies": {
+    "@jest/globals": "^28.1.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0"
+  }
+}
