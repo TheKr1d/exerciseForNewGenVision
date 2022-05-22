@@ -44,7 +44,7 @@ const expectedRange3 = [
 ];
 
 test('Testing filtred', () => {
-  expect(filtred(courses, requiredRange1)).toStrictEqual(expectedRange1),
-  expect(filtred(courses, requiredRange2)).toStrictEqual(expectedRange2),
-  expect(filtred(courses, requiredRange3)).toStrictEqual(expectedRange3)
+  expect(filtred(courses, requiredRange1)).toStrictEqual(expectedRange1);
+  expect(filtred(courses, requiredRange2)).toStrictEqual(expectedRange2);
+  expect(filtred(courses, requiredRange3)).toStrictEqual(expectedRange3);
 });
